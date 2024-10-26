@@ -9,9 +9,6 @@ from PyPDF2 import PdfReader
 from flask import Flask, request, jsonify
 import cassio
 
-ASTRA_DB_APPLICATION_TOKEN = ""
-ASTRA_DB_ID = ""
-OPENAI_API_KEY = ""
 
 pdfreader = PdfReader('./book_1.pdf')
 raw_text = ''
