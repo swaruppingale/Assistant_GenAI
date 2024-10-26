@@ -16,7 +16,7 @@ load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
-groq_api_key = "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"
+groq_api_key = "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"
 app.config['SECRET_KEY'] = secrets.token_hex(16)  # Generates a 32-character hex string
 app.config['SESSION_TYPE'] = 'filesystem'
 Session(app)

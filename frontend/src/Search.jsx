@@ -144,7 +144,7 @@ function Search() {
     <div className="flex flex-col min-h-screen bg-gray-800">
       <header className="bg-gray-700 shadow-md sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <h1 className="text-2xl font-bold text-gray-300">Codecatalysts</h1>
+          <h1 className="text-2xl font-bold text-gray-300">FinBuddy</h1>
           <form onSubmit={handleSearch} className="flex items-center">
             <input
               type="text"
@@ -167,7 +167,7 @@ function Search() {
         {showManual && (
           <div className="bg-gray-700 rounded-md shadow-black shadow-lg p-6 mb-8">
             <h2 className="text-xl font-semibold text-gray-300 mb-4">
-              How to Use the Codecatalysts Search Engine
+              How to Use the FinBuddy Search Engine
             </h2>
             <p className="text-gray-400 mb-2">1. Enter your search query in the input field.</p>
             <p className="text-gray-400 mb-2">

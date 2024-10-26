@@ -9,7 +9,7 @@ export function MessageInput({ userQuestion, setUserQuestion, handleSend }) {
       <input
         value={userQuestion}
         onChange={(e) => setUserQuestion(e.target.value)}
-        placeholder="Ask CodeCatalysts..."
+        placeholder="Ask FinBuddy..."
         className="flex-1 border border-gray-600 bg-gray-700 text-gray-300 rounded-lg p-2 mr-2"
       />
       <button

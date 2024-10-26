@@ -34,7 +34,7 @@ function ChatPage() {
         console.log(response);
         const message = { author: "You", content: userQuestion };
         const aiResponse = {
-          author: "CodeCatalysts",
+          author: "FinBuddy",
           content: response.data.content,
         };
         setChatHistory([...chatHistory, message, aiResponse]);
@@ -61,7 +61,7 @@ function ChatPage() {
             onClick={() => window.location.reload()}
             className="text-3xl poppins p-5 px-5 cursor-pointer font-semibold text-white"
           >
-            CodeCatalyst
+            FinBuddy
           </h1>
           <div className="flex-1 flex flex-col">
             <ChatArea
